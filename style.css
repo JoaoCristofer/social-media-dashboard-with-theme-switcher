@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+#theme:checked ~ #bg {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.header {
+  margin-bottom: 45px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#bg {
+  margin: 0px;
+  padding: 0px;
+}
+
+#over {
+  color: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  margin-top: 20px;
+}
+
+#fb, #tw, #ig, #yt {
+  background-color: hsl(227, 47%, 96%);
+  height: 220px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#fb_grad, #tw_grad, #yt_grad {
+  height: 5px;
+  width: 260px;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#fb_grad {
+  background-color: hsl(208, 92%, 53%);
+}
+
+#tw_grad {
+  background-color: hsl(203, 89%, 53%);
+}
+
+#yt_grad {
+  background-color: hsl(348, 97%, 39%);
+}
+
+#ig_grad {
+  height: 5px;
+  width: 260px;
+  background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#fb_img, #tw_img, #ig_img, #yt_img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+  gap: 10px;
+}
+
+#fb_desc, #tw_desc, #ig_desc, #yt_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tw_desc_up, #ig_desc_up, #yt_desc_up {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+#ov_divs, #ov_divs2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#ov_divs {
+  padding-bottom: 25px;
+}
+
+#ov_divs2 {
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#fb_pg, #fb_lk, #ig_lk, #ig_pw, #tw_rt, #tw_lk, #yt_lk, #yt_vw {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+#fb_pg_img, #fb_lk_img, #ig_lk_img, #ig_pw_img, #tw_rt_img, #tw_lk_img, #yt_lk_img, #yt_vw_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+#fb_pg_desc, #fb_lk_desc, #ig_lk_desc, #ig_pw_desc, #tw_rt_desc, #tw_lk_desc, #yt_lk_desc, #yt_vw_desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+p {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 55px;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+h3, #cbc2 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 5px;
+  padding-left: 32px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+p1, p2, p3, p4 {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p1 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p2 {
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+p3 {
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 32px;
+}
+
+p4 {
+  color: hsl(356, 69%, 56%);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  color: #35ab8b;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#theme ~ #icons {
+  background-color: white;
+}
+#theme ~ #icons h1, #theme ~ #icons h2, #theme ~ #icons h4 {
+  color: hsl(230, 17%, 14%);
+}
+#theme ~ #icons h3 {
+  color: hsl(228, 12%, 44%);
+}
+
+#theme:checked ~ #bg #cbc2, #theme:checked ~ #bg #over, #theme:checked ~ #bg h1, #theme:checked ~ #bg h2, #theme:checked ~ #bg h3, #theme:checked ~ #bg h4 {
+  color: hsl(0, 0%, 100%);
+}
+#theme:checked ~ #bg #icons #fb, #theme:checked ~ #bg #icons #tw, #theme:checked ~ #bg #icons #ig, #theme:checked ~ #bg #icons #yt, #theme:checked ~ #bg #icons #fb_pg, #theme:checked ~ #bg #icons #fb_lk, #theme:checked ~ #bg #icons #ig_lk, #theme:checked ~ #bg #icons #ig_pw, #theme:checked ~ #bg #icons #tw_rt, #theme:checked ~ #bg #icons #tw_lk, #theme:checked ~ #bg #icons #yt_lk, #theme:checked ~ #bg #icons #yt_vw, #theme:checked ~ #bg #ov_divs #fb, #theme:checked ~ #bg #ov_divs #tw, #theme:checked ~ #bg #ov_divs #ig, #theme:checked ~ #bg #ov_divs #yt, #theme:checked ~ #bg #ov_divs #fb_pg, #theme:checked ~ #bg #ov_divs #fb_lk, #theme:checked ~ #bg #ov_divs #ig_lk, #theme:checked ~ #bg #ov_divs #ig_pw, #theme:checked ~ #bg #ov_divs #tw_rt, #theme:checked ~ #bg #ov_divs #tw_lk, #theme:checked ~ #bg #ov_divs #yt_lk, #theme:checked ~ #bg #ov_divs #yt_vw, #theme:checked ~ #bg #ov_divs2 #fb, #theme:checked ~ #bg #ov_divs2 #tw, #theme:checked ~ #bg #ov_divs2 #ig, #theme:checked ~ #bg #ov_divs2 #yt, #theme:checked ~ #bg #ov_divs2 #fb_pg, #theme:checked ~ #bg #ov_divs2 #fb_lk, #theme:checked ~ #bg #ov_divs2 #ig_lk, #theme:checked ~ #bg #ov_divs2 #ig_pw, #theme:checked ~ #bg #ov_divs2 #tw_rt, #theme:checked ~ #bg #ov_divs2 #tw_lk, #theme:checked ~ #bg #ov_divs2 #yt_lk, #theme:checked ~ #bg #ov_divs2 #yt_vw {
+  background-color: hsl(228, 28%, 20%);
+}
+#theme:checked ~ #bg #ov_divs2 p {
+  color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=style.css.map */
